@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - print if the number is positive, zero, or negative
@@ -20,7 +22,7 @@ if (l > 5)
 }
 else if (l == 0)
 {
-	printf("Last digit of %d id %d and is not 0\n", l);
+	printf("Last digit of %d id %d and is 0\n", l);
 }
 else 
 {
