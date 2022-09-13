@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - function to print abc 10 times
@@ -17,5 +17,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-return (0);
 }
