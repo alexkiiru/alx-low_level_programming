@@ -1,19 +1,21 @@
 #include "_putchar.h"
 
 /**
- * main -print function
+ * main -print _putchar
  * Return:0
  */
 
 int main(void)
 {
-	char _putchar[9] = {'H', 'O', 'L', 'B', 'E', 'R', 'T', 'O', 'N'};
-	unsigned int c;
+	 _putchar('_');
+	 _putchar('p');
+	 _putchar('u');
+	 _putchar('t');
+	 _putchar('c');
+	 _putchar('h');
+	 _putchar('a');
+	 _putchar('r');
+	 _putchar('\n');
 
-	for (c = 0; c < sizeof(_putchar); C++)
-	{
-		_putchar(_putchar[c]);
-	}
-
-_putchar('\n');
-return (0);
+	 return (0);
+}
