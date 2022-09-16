@@ -2,15 +2,15 @@
 #include "main.h"
 
 /**
- * print_square - prints square
+ * print_square - prints squares
  * @size: parameter
- * Return: returns nothing
+ * Returns: returns nothing
  */
 
 void print_square(int size)
 {
 	int inc1, inc2;
-	
+
 	if (size > 0)
 	{
 		for (inc1 = 0; inc1 < size; inc1++)
@@ -25,7 +25,6 @@ void print_square(int size)
 		}
 	}
 	else
-	{
-		putchar('\n');
+	{putchar('\n');
 	}
 }
