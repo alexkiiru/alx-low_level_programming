@@ -4,7 +4,7 @@
  * print_number - prints an integer
  * @n: random integer
  * Return: void
- */
+ **/
 
 void print_number(int n)
 {
@@ -19,12 +19,12 @@ void print_number(int n)
 		n = n / -10;
 	}
 
-	else
-	{
-		ld = (char) ((n % 10) + '0');
+		else
+		{
+			ld = (char) ((n % 10) + '0');
 		n = n / 10;
-	}
-
+		}
+	
 	r = 0;
 	while (n > 0)
 	{
