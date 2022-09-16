@@ -3,7 +3,8 @@
 /**
  * main - prints the largest prime factor
  * of a number
- * Returns: returns 0
+ *
+ * Return: returns 0
  */
 
 int main(void)
@@ -18,13 +19,13 @@ int main(void)
 		number /= 2;
 		continue;
 	}
-
+	
 	for (inc = 3; inc < number / 2; inc += 2)
 	{
 		if (number % inc == 0)
-		number /= inc;
+			number /= inc;
 	}
 	}
-printf("%ld\n", number);
-return (0);
+	printf("%ld\n", number);
+	return (0);
 }
