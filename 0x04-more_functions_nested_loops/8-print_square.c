@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * prints_square - prints squares
- * @size: parameters
+ * print_square - prints square
+ * @size: parameter
  * Return: returns nothing
  */
 
@@ -13,13 +13,13 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (inc 1 = 0; inc1 < size; inc1++)
+		for (inc1 = 0; inc1 < size; inc1++)
 		{
 			for (inc2 = 0; inc2 < (size - 1); inc2++)
 			{
 				putchar('#');
 			}
-
+			
 			putchar('#');
 			putchar('\n');
 		}
