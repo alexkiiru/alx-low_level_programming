@@ -5,10 +5,9 @@
  * @n: number to be used
  * Return: the square root of n
  */
-
 int _sqrt_recursion(int n)
 {
-	if (n == || n == 0)
+	if (n == 1 || n == 0)
 		return (n);
 	return (_sqrt(0, n));
 }
@@ -19,7 +18,6 @@ int _sqrt_recursion(int n)
  * @x: squared number
  * Return: the square root of n
  */
-
 int _sqrt(int n, int x)
 {
 	if (n > x / 2)
