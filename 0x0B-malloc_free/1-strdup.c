@@ -9,7 +9,7 @@
  * space
  */
 
-cha *_srdup(char *str)
+char *_srdup(char *str)
 {
 	char *cpy;
 	int index, len;
