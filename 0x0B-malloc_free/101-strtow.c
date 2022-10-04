@@ -55,7 +55,7 @@ int num_words(char *str)
 
 char **strtow(char *str)
 {
-	char **spilt;
+	char **split;
 	int i, j = 0, temp = 0, size = 0, words = num_words(str);
 
 	if (words == 0)
@@ -95,4 +95,4 @@ char **strtow(char *str)
 }
 else
 	return (NULL);
-	}
+}
