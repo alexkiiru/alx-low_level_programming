@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef _DOG_H_FILE
+#define _DOG_H_FILE
 
 /**
  *struct dog - information about dogs
