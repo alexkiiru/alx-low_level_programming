@@ -40,6 +40,17 @@ void print_i(va_list i)
 }
 
 /**
+ * print_f - prints a float
+ * @f: float to print
+ * Return: void
+ */
+
+void print_f(va_list f)
+{
+	printf("%f", va_arg(f, double));
+}
+
+/**
  * print_all - prints anything
  * @format: list of argument types passed to the function
  * Return: void
